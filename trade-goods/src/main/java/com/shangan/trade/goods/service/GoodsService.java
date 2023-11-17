@@ -23,4 +23,19 @@ public interface GoodsService {
      */
     Goods queryGoodsById(long id);
 
+    /**
+     * 库存扣减
+     * @param id
+     * @return
+     */
+    boolean lockStock(long id);
+
+    boolean deductStock(long id);
+
+    /**
+     * 锁定的库存回补
+     * @param id
+     * @return
+     */
+    boolean revertStock(long id);
 }

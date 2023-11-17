@@ -1,0 +1,6 @@
+/usr/bin/cd: line 4: cd: Desktop/elasticsearch-7.4.0/bin/elasticsearch: No such file or directory
+nohup: elasticsearch: No such file or directory
+nohup: ./elasticsearch: No such file or directory
+nohup: ./elasticsearch: No such file or directory
+nohup: ./elasticsearch: No such file or directory
+nohup: elasticsearch: No such file or directory

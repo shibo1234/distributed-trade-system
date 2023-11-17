@@ -34,6 +34,12 @@ public interface GoodsDao {
      */
     boolean updateGoods(Goods goods);
 
+    boolean lockStock(long id);
+
+    boolean revertStock(long id);
+
+    boolean deductStock(long id);
+
     /**
      * 锁定商品的库存
      * @param id
